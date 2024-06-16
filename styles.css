@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "Makgeolli";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/Makgeolli.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.page {
+  position: relative;
+  font-family: "Makgeolli";
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: white;
+}
+
+.page.active {
+  display: block;
+}
+
+.page h1 {
+  font-size: 60px;
+}
+
+.page p {
+  font-size: 25px;
+}
+
+.next-button {
+  position: absolute;
+  transform: translateX(-150%);
+  bottom: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #d7914b;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.prev-button {
+  position: absolute;
+  transform: translateX(50%);
+  bottom: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #d7914b;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.next-button:hover,
+.prev-button:hover {
+  background-color: #ff972f;
+}
+
+.title-name {
+  color: #ff9b37;
+}
+
+/* ----------------------------------------- */
+#page1 {
+  background-image: url("/backimg1.jpeg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.img-1 {
+  width: 100%;
+  height: 70%;
+}
+
+.img-1 img {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 200px;
+  width: 25%;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#page2 {
+  background-image: url("/backimg2.jpg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.img-2 img {
+  margin-top: 60px;
+  margin-left: 100px;
+  width: 15%;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#page3 {
+  background-image: url("/backimg3.jpg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.img-3 img {
+  width: 15%;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#page4 {
+  background-image: url("/backimg4.jpeg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.img-4 img {
+  width: 25%;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#page5 {
+  background-image: url("/backimg5.jpg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.img-5 img {
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 35%;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#page6 {
+  background-image: url("/backimg5.jpg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.img-6 img {
+  margin-top: 0px;
+  margin-left: 100px;
+  width: 25%;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#page7 {
+  background-image: url("/backimg7.jpg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.img-7 img {
+  margin-left: 100px;
+  width: 35%;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#page8 {
+  background-image: url("/backimg8.jpg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.img-8 img {
+  margin-left: 100px;
+  width: 40%;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#page9 {
+  background-image: url("/backimg9.jpeg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.img-9 img {
+  margin-top: 0px;
+  width: 20%;
+  border-radius: 15px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#page10 {
+  background-image: url("/backimg10.png"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 화면을 덮도록 */
+  background-position: center; /* 이미지의 중앙을 표시 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
+}
+
+.end {
+  height: 300px;
+}
+
+#end-font {
+  color: #ff8000;
+  font-size: 250px;
+}
