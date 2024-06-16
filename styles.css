@@ -92,7 +92,6 @@ body {
   margin-right: 200px;
   width: 25%;
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
 }
 
 #page2 {
@@ -107,7 +106,6 @@ body {
   margin-left: 100px;
   width: 15%;
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
 }
 
 #page3 {
@@ -119,8 +117,9 @@ body {
 
 .img-3 img {
   width: 15%;
+  margin-right: 200px;
+  margin-left: 100px;
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
 }
 
 #page4 {
@@ -133,7 +132,6 @@ body {
 .img-4 img {
   width: 25%;
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
 }
 
 #page5 {
@@ -148,7 +146,6 @@ body {
   margin-left: 100px;
   width: 35%;
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
 }
 
 #page6 {
@@ -163,7 +160,6 @@ body {
   margin-left: 100px;
   width: 25%;
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
 }
 
 #page7 {
@@ -177,7 +173,6 @@ body {
   margin-left: 100px;
   width: 35%;
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
 }
 
 #page8 {
@@ -191,11 +186,10 @@ body {
   margin-left: 100px;
   width: 40%;
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
 }
 
 #page9 {
-  background-image: url("/img/backimg9.jpeg"); /* 배경 이미지 경로 */
+  background-image: url("./img/backimg9.jpeg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -205,7 +199,6 @@ body {
   margin-top: 0px;
   width: 20%;
   border-radius: 15px;
-  border: 3px solid rgb(255, 255, 255);
 }
 
 #page10 {
