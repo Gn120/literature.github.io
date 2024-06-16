@@ -75,7 +75,7 @@ body {
 
 /* ----------------------------------------- */
 #page1 {
-  background-image: url("/backimg1.jpeg"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg1.jpeg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -96,7 +96,7 @@ body {
 }
 
 #page2 {
-  background-image: url("/backimg2.jpg"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg2.jpg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -111,7 +111,7 @@ body {
 }
 
 #page3 {
-  background-image: url("/backimg3.jpg"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg3.jpg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -124,7 +124,7 @@ body {
 }
 
 #page4 {
-  background-image: url("/backimg4.jpeg"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg4.jpeg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -137,7 +137,7 @@ body {
 }
 
 #page5 {
-  background-image: url("/backimg5.jpg"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg5.jpg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -152,7 +152,7 @@ body {
 }
 
 #page6 {
-  background-image: url("/backimg5.jpg"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg5.jpg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -167,7 +167,7 @@ body {
 }
 
 #page7 {
-  background-image: url("/backimg7.jpg"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg7.jpg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -181,7 +181,7 @@ body {
 }
 
 #page8 {
-  background-image: url("/backimg8.jpg"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg8.jpg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -195,7 +195,7 @@ body {
 }
 
 #page9 {
-  background-image: url("/backimg9.jpeg"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg9.jpeg"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
@@ -209,7 +209,7 @@ body {
 }
 
 #page10 {
-  background-image: url("/backimg10.png"); /* 배경 이미지 경로 */
+  background-image: url("/img/backimg10.png"); /* 배경 이미지 경로 */
   background-size: cover; /* 이미지가 화면을 덮도록 */
   background-position: center; /* 이미지의 중앙을 표시 */
   background-repeat: no-repeat; /* 이미지가 반복되지 않도록 */
